@@ -4,43 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "43ebfbcad3224bb6",
+        "id": "647052e9157913bb",
         "type": "tabs",
         "children": [
           {
-            "id": "0671331416991652",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "7828490a5a428689",
+            "id": "d6f7ff5d08c61f65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HELLO.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ca85c5f8f882fb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "test commit.md",
+                "file": "HTB/Test.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test commit.md",
+                "file": "HTB/Test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test commit.md",
+                "file": "HTB/Test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test commit.md"
+                "file": "HTB/Test.md"
               }
             }
           }
@@ -167,11 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7ca85c5f8f882fb7",
+  "active": "d6f7ff5d08c61f65",
   "lastOpenFiles": [
+    "HTB/Test.md",
+    "Web Frameworks/Laravel - PHP",
+    "Web Frameworks/C Sharp - ASP NET",
+    "Web Frameworks/Java - Spring",
+    "Web Frameworks/Javascript - NodeJS",
+    "Web Frameworks/Python - Django",
+    "Pasted image 20230726231123.png",
+    "asd.md",
+    "Python - Exploit Dev",
+    "Portswigger Labs",
+    "Web Frameworks",
     "HELLO.md",
+    "HTB",
+    "OffSec OSWE Case Studies/13- Guacamole Lite Prototype Pollution",
     "test commit.md",
-    "XSS/asd.md",
-    "XSS"
+    "XSS/asd.md"
   ]
 }
