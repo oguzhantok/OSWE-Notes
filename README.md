@@ -2,6 +2,7 @@
 
 ## Vulnerabilities:
 - [x] **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
+- [ ] **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
 ------------------------------------------------------------------------------------------
 ## Web-Frameworks:
 
