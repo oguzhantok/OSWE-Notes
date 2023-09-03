@@ -23,7 +23,12 @@
  :white_large_square: (Youtube) Exploiting Deserialization Vulnerabilities in Java [link](https://www.youtube.com/watch?v=VviY3O-euVQ) </br>
  :white_large_square: (Youtube) DEF CON 25 Conference [link](https://www.youtube.com/watch?v=ZBfBYoK_Wr0) </br>
  :white_large_square: (Tool) ysoserial [link](https://github.com/frohoff/ysoserial/) </br>
- 
+
+
+ #### .NET
+ #### JAVA
+ #### Python
+ #### PHP
  </details>
 
 <details>
