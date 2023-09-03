@@ -4,10 +4,8 @@
 
 <details>
 <summary><b>1. SQL Injection</b></summary>
-:white_large_square: **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
-:white_large_square: **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
-:white_large_square: **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
-:white_check_mark: **htb**: contains files and writeups for various hackthebox challenges and machines. Usually the solution is not included ;) <br/>
+:white_large_square: <br/>
+:white_check_mark:
 </details>
 
 <details>
