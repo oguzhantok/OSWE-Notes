@@ -24,11 +24,47 @@
  :white_large_square: (Youtube) DEF CON 25 Conference [link](https://www.youtube.com/watch?v=ZBfBYoK_Wr0) </br>
  :white_large_square: (Tool) ysoserial [link](https://github.com/frohoff/ysoserial/) </br>
 
+ #### PHP 
 
- #### .NET
+ * Native methods for PHP serialization are <b>serialize()</b> and <b>unserialize()</b>
+ * PHP uses human-readable string serialization format.
+   
+ User object with the attributes:
+ ```
+ $user->name = "carlos"; 
+ $user->isLoggedIn = true;
+ ```
+ Serialized User object:
+ ```
+ O:4:"User":2:{s:4:"name":s:6:"carlos"; s:10:"isLoggedIn":b:1;}
+ ```
+ Vulnerable code snippet:
+ ```
+ // instantiate a User object based on the data from the cookie
+ $user = unserialize($_COOKIE);
+ if ($user->isAdmin === true) {
+ // allow access to admin interface
+ }
+ ```
+ Vulnerable code snippet:
+ ```
+ $login = unserialize($_COOKIE)
+ if ($login['password'] == $password) {
+ // log in successfully
+ // 5 == "5" evaluates true
+ // 5 == "5 of something" is in practice treated as 5 == 5
+ // 0 == "Example string" evaluates true
+ // attacker modified the password attribute so that it contained the integer 0 instead of the expected string. As long as the stored password does not start with a number, the condition would always return true, enabling an authentication bypass
+ }
+ ```
  #### JAVA
+ * Java uses binary serialization format.
+ * Serialized Java objects always begin with the same bytes, which are encoded as <b>ac ed</b> in hexadecimal and <b>rO0</b> in Base64
+ * Any class that implements the interface <b>java.io.Serializable</b> can be serialized and deserialized. If you have source code access, take note of any code that uses the <b>readObject()</b> method, which is used to read and deserialize data from an <b>InputStream</b>
+ #### .NET
+ 
  #### Python
- #### PHP
+
  </details>
 
 <details>
