@@ -11,7 +11,7 @@
 </details>
 
 <details>
-<summary><b>2. Cross-Site Scripting</b></summary>
+<summary><b>2. Cross-Site Scripting (XSS)</b></summary>
 </details>
 
 <details>
@@ -27,9 +27,48 @@
 </details>
 
 <details>
-<summary><b>6. JWT Attacks</b></summary>
+<summary><b>6. JWT Vulnerabilities</b></summary>
 </details>
 
+<details>
+<summary><b>7. Directory Traversal</b></summary>
+</details>
+
+<details>
+<summary><b>8. Command Injection</b></summary>
+</details>
+
+<details>
+<summary><b>9. File Upload Vulnerabilities</b></summary>
+</details>
+
+<details>
+<summary><b>10. Race Conditions</b></summary>
+</details>
+
+<details>
+<summary><b>11. Server Side Request Forgery (SSRF)</b></summary>
+</details>
+
+<details>
+<summary><b>12. XXE Injection</b></summary>
+</details>
+
+<details>
+<summary><b>13. Server Side Template Injection (SSTI)</b></summary>
+</details>
+
+<details>
+<summary><b>14. HTTP Request Smuggling</b></summary>
+</details>
+
+<details>
+<summary><b>15. OAuth Vulnerabilities</b></summary>
+</details>
+
+<details>
+<summary><b>16. Remote Code Execution (RCE)</b></summary>
+</details>
 
 ------------------------------------------------------------------------------------------
 ## Web-Frameworks:
