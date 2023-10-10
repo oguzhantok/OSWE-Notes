@@ -61,6 +61,7 @@
  * Java uses binary serialization format.
  * Serialized Java objects always begin with the same bytes, which are encoded as <b>ac ed</b> in hexadecimal and <b>rO0</b> in Base64
  * Any class that implements the interface <b>java.io.Serializable</b> can be serialized and deserialized. If you have source code access, take note of any code that uses the <b>readObject()</b> method, which is used to read and deserialize data from an <b>InputStream</b>
+ * "Magic Byte" "AC ED"	"¬í"	"Serialized Java Data"
  #### .NET
  
  #### Python
