@@ -12,7 +12,7 @@
 <summary><b>2. Cross-Site Scripting (XSS)</b></summary>
 </details>
 
-<details>
+
 <summary><b>3. Deserialization</b></summary>
 
  :white_large_square: Portswigger Deserialization Labs [link](https://portswigger.net/web-security/deserialization) </br>
@@ -74,7 +74,7 @@ O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";O:14:"CustomTempla
  
  #### Python
 
- </details>
+
 
 <details>
 <summary><b>4. Type Juggling</b></summary>
